@@ -1,0 +1,9 @@
+# JetBrains
+.idea/
+bin/
+obj/
+
+# macOS
+.DS_Store
+.localization
+

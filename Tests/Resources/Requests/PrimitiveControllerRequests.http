@@ -1,0 +1,48 @@
+POST https://localhost:5001/api/primitivedefaulttype/secure
+Content-Type: application/json
+
+{
+  "name": "Bendik",
+  "dateOfBirth": "1997-05-27",
+  "alive": true,
+  "numberOfSiblings": 3,
+  "gender": 0
+}
+
+###
+###
+# A safe example, where properties are nullables and required
+###
+POST https://localhost:5001/api/primitivedefaulttype/secure
+Content-Type: application/json
+
+{
+  "name": "Bendik"
+}
+
+
+###
+# Required primitive properties are not set, yet the request is valid
+###
+POST https://localhost:5001/api/primitivedefaulttype/insecure
+Content-Type: application/json
+
+{
+  "name": "Bendik"
+}
+
+###
+# All properties are set
+###
+POST https://localhost:5001/api/primitivedefaulttype/insecure
+Content-Type: application/json
+
+{
+  "name": "Bendik",
+  "dateOfBirth": "1997-05-27",
+  "alive": true,
+  "numberOfSiblings": 3,
+  "gender": "2"
+}
+
+###

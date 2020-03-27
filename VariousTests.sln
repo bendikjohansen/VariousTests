@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{8862D0DA-40A7-4F6D-A0AA-68819DC6007D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{00A25726-3C05-42B9-85CE-54CEC9625FCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Src\Web\Web.csproj", "{53E096CB-E4E5-44C2-B861-BC4F930B916A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTest", "Tests\WebTest\WebTest.csproj", "{8A6D1B90-1F81-4AC7-84BD-27442DB1AF59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Tests\Resources\Resources.csproj", "{D05CE4DE-96E1-4F10-B1B4-1AF4A4BA6AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53E096CB-E4E5-44C2-B861-BC4F930B916A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E096CB-E4E5-44C2-B861-BC4F930B916A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E096CB-E4E5-44C2-B861-BC4F930B916A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E096CB-E4E5-44C2-B861-BC4F930B916A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6D1B90-1F81-4AC7-84BD-27442DB1AF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6D1B90-1F81-4AC7-84BD-27442DB1AF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6D1B90-1F81-4AC7-84BD-27442DB1AF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6D1B90-1F81-4AC7-84BD-27442DB1AF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05CE4DE-96E1-4F10-B1B4-1AF4A4BA6AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05CE4DE-96E1-4F10-B1B4-1AF4A4BA6AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05CE4DE-96E1-4F10-B1B4-1AF4A4BA6AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05CE4DE-96E1-4F10-B1B4-1AF4A4BA6AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53E096CB-E4E5-44C2-B861-BC4F930B916A} = {8862D0DA-40A7-4F6D-A0AA-68819DC6007D}
+		{8A6D1B90-1F81-4AC7-84BD-27442DB1AF59} = {00A25726-3C05-42B9-85CE-54CEC9625FCB}
+		{D05CE4DE-96E1-4F10-B1B4-1AF4A4BA6AFA} = {00A25726-3C05-42B9-85CE-54CEC9625FCB}
+	EndGlobalSection
+EndGlobal
